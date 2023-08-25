@@ -54,14 +54,14 @@ DEVS = [5159123009]
 @sython1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython1(JoinChannelRequest("@saythonh"))
+        await sython1(JoinChannelRequest("@FPPPP6"))
     except BaseException:
         pass
         
 @sython1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython1(JoinChannelRequest("@sy_tem"))
+        await sython1(JoinChannelRequest("@ci_ty_sport"))
     except BaseException:
         pass
       
@@ -88,7 +88,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
         order = await event.reply("""**
-⚝ مرحبا بك في اوامر سـايثـون بـوينت
+⚝ مرحبا بك في اوامر سـيتي بـوينت
  
 ============= • 𝐒𝐘 • ============
 
@@ -252,15 +252,15 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
+╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗜𝗧𝗬⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
+※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗖𝗜𝗧𝗬     ※
 
 ※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟭 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
 
 ※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
 
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯𝗖𝗜𝗧𝗬  𝗣𝗢𝗜𝗡𝗧⌯───╯
 ''')
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='/point1'))
@@ -1109,7 +1109,7 @@ async def OwnerStart(event):
         await sython1.send_message(ownerhson_ids,'**⚝ قمت بالانضمام والتصويت بنجاح**')
 
 
-print("💠 Sython Userbot Running 💠")
+print("💠 City Userbot Running 💠")
 sython1.run_until_disconnected()
 
 
