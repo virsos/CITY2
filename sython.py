@@ -54,14 +54,14 @@ DEVS = [5159123009]
 @sython1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython1(JoinChannelRequest("@FPPPP6"))
+        await sython1(JoinChannelRequest("@SS6CC7"))
     except BaseException:
         pass
         
 @sython1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython1(JoinChannelRequest("@ci_ty_sport"))
+        await sython1(JoinChannelRequest("@SS6CC7"))
     except BaseException:
         pass
       
@@ -88,9 +88,9 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
         order = await event.reply("""**
-⚝ مرحبا بك في اوامر سـيتي بـوينت
+⚝ مرحبا بك في اوامر سورس تجميع 
  
-============= • 𝐒𝐘 • ============
+============= • AB • ============
 
 𝟏 - للدخول الى اوامر التجميع : .تجميع
 
@@ -100,7 +100,7 @@ async def OwnerStart(event):
 
 𝟒 - لـفـحص عـمـل الـســورس : .فحص
 
-============= • 𝐒𝐘 • ============
+============= • AB • ============
 **""")
 
 
@@ -111,7 +111,7 @@ async def OwnerStart(event):
         order = await event.reply("""**
 ⚝ قـائمة جميع اوامر التجميع التي تحتاجها
 
-============= • 𝐒𝐘 • ============
+============= • AB • ============
 
 `/point1` :  تجميع نقاط بوت المليار
 `/point2` : تجميع نقاط بوت الجوكر 
@@ -145,7 +145,7 @@ note : ننصحك بوضع عدد الثواني 300
 
 `/lpoint` : لمغادرة جميع القنوات والمجموعات
 
-============= • 𝐒𝐘 • ============
+============= • AB • ============
 **""")
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='.تحكم'))
@@ -155,7 +155,7 @@ async def OwnerStart(event):
         order = await event.reply("""**
 ⚝ قائمة اوامر التحكم بالحساب
 
-============= • 𝐒𝐘 • ============
+============= • AB • ============
 
 𝟏 - لتحويل اخر رسالة من مستخدم معين او بوت :
 
@@ -181,7 +181,7 @@ note :  قم بحساب رقم الزر الشفاف من العدد 0
 
 `/jn + يوزر القناة او المجموعة `
 
-============= • 𝐒𝐘 • ============
+============= •  AB • ============
 **""")
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='.مميزة'))
@@ -190,7 +190,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id :
         order = await event.reply("""**
 ⚝ قائمة الاوامر المميزة 
-============= • 𝐒𝐘 • ============
+============= • AB • ============
 
 𝟏 - لتفعيل بوت عبر الدخول الى رابط الدعوه : 
 
@@ -212,7 +212,7 @@ note : موقع الرسالة يعني مثلا اذا كان الاسم في �
 
 `/lv + يوزر القناة`
 
-============= • 𝐒𝐘 • ============
+============= • AB • ============
 **""")
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='/notes'))
@@ -252,15 +252,15 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗜𝗧𝗬⌯──╮
+╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 Abbas ⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗖𝗜𝗧𝗬     ※
+※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  Abbas      ※
 
 ※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟭 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
 
 ※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
 
-╰───⌯𝗖𝗜𝗧𝗬  𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯Abbas   𝗣𝗢𝗜𝗡𝗧⌯───╯
 ''')
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='/point1'))
@@ -1109,7 +1109,7 @@ async def OwnerStart(event):
         await sython1.send_message(ownerhson_ids,'**⚝ قمت بالانضمام والتصويت بنجاح**')
 
 
-print("💠 City Userbot Running 💠")
+print("💠 Abbas  Userbot Running 💠")
 sython1.run_until_disconnected()
 
 
